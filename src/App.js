@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import EsignatureApp from './01-e-sgin/Esign';
+import RandomiseColor from './02-randomise-color/RandomiseColor';
+import LikeMyPhoto from './03-like-my-photo/LikeMyPhoto';
+import TestimonialsApp from './04-testimonials/TestimonialsApp';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {/* <RandomiseColor /> */}
+      {/* <LikeMyPhoto /> */}
+      <TestimonialsApp />
     </div>
   );
 }
